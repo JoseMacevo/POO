@@ -13,7 +13,7 @@ class Square(Rectangle):
 
 
 if __name__ == '__main__':
-    rectangle = Rectangle(3, 4)
+    rectangle = Rectangle(base=3, height=4)
     print(rectangle.area())
 
     square = Square(5)
